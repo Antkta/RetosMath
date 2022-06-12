@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="">
+    <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="Primeras clases de RetosMath, con dos tablas, temporizador y jugador">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -27,6 +27,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,6 +62,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655070809941</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primeras clases de RetosMath, con dos tablas, temporizador y jugador">
+      <created>1655072208647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655072208647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeras clases de RetosMath, con dos tablas, temporizador y jugador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeras clases de RetosMath, con dos tablas, temporizador y jugador" />
   </component>
 </project>
