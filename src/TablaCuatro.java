@@ -17,6 +17,9 @@ public class TablaCuatro {
         TablaCuatro.put("Cuatro por Nueve", 36);
         TablaCuatro.put("Cuatro por Diez", 40);
 
+ }
 
+    public HashMap<String, Integer> getTablaCuatro() {
+        return TablaCuatro;
     }
 }
