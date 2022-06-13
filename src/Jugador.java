@@ -1,15 +1,18 @@
 public class Jugador {
 
-    private final String nombre;
+    private String nombre;
     private int puntaje;
     private int retosSuperados;
 
     private int tablasSuperadas;
 
-    public Jugador(String nombre) {
+    public void setNombre (String nombre) {
         this.nombre = nombre;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
 
     @Override
     public String toString() {

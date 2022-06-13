@@ -20,5 +20,7 @@ public class TablaUno {
 
     }
 
-
+    public HashMap<String, Integer> getTablaUno() {
+        return TablaUno;
+    }
 }

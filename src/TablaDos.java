@@ -19,4 +19,9 @@ public class TablaDos {
 
 
     }
+
+    public HashMap<String, Integer> getTablaDos() {
+        return TablaDos;
+    }
+
 }
