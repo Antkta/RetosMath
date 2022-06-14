@@ -2,24 +2,24 @@ import java.util.HashMap;
 
 public class TablaCinco {
 
-    HashMap<String, Integer> TablaCinco = new HashMap<>();
+    private HashMap<String, Integer> tablaCinco = new HashMap<>();
 
-    public TablaCinco(){
+    private void TablaCinco(){
 
-        TablaCinco.put("Cinco por Uno", 5);
-        TablaCinco.put("Cinco por Dos", 10);
-        TablaCinco.put("Cinco por Tres", 15);
-        TablaCinco.put("Cinco por Cuatro", 20);
-        TablaCinco.put("Cinco por Cinco", 25);
-        TablaCinco.put("Cinco por Seis", 30);
-        TablaCinco.put("Cinco por Siete", 35);
-        TablaCinco.put("Cinco por Ocho", 40);
-        TablaCinco.put("Cinco por Nueve", 45);
-        TablaCinco.put("Cinco por Diez", 50);
+        tablaCinco.put("Cinco por Uno", 5);
+        tablaCinco.put("Cinco por Dos", 10);
+        tablaCinco.put("Cinco por Tres", 15);
+        tablaCinco.put("Cinco por Cuatro", 20);
+        tablaCinco.put("Cinco por Cinco", 25);
+        tablaCinco.put("Cinco por Seis", 30);
+        tablaCinco.put("Cinco por Siete", 35);
+        tablaCinco.put("Cinco por Ocho", 40);
+        tablaCinco.put("Cinco por Nueve", 45);
+        tablaCinco.put("Cinco por Diez", 50);
 
  }
 
     public HashMap<String, Integer> getTablaCinco() {
-        return TablaCinco;
+        return tablaCinco;
     }
 }

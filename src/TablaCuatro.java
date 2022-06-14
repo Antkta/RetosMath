@@ -2,24 +2,24 @@ import java.util.HashMap;
 
 public class TablaCuatro {
 
-    HashMap<String, Integer> TablaCuatro = new HashMap<>();
+    private HashMap<String, Integer> tablaCuatro = new HashMap<>();
 
-    public TablaCuatro(){
+    private void TablaCuatro(){
 
-        TablaCuatro.put("Cuatro por Uno", 4);
-        TablaCuatro.put("Cuatro por Dos", 8);
-        TablaCuatro.put("Cuatro por Tres", 12);
-        TablaCuatro.put("Cuatro por Cuatro", 16);
-        TablaCuatro.put("Cuatro por Cinco", 20);
-        TablaCuatro.put("Cuatro por Seis", 24);
-        TablaCuatro.put("Cuatro por Siete", 28);
-        TablaCuatro.put("Cuatro por Ocho", 32);
-        TablaCuatro.put("Cuatro por Nueve", 36);
-        TablaCuatro.put("Cuatro por Diez", 40);
+        tablaCuatro.put("Cuatro por Uno", 4);
+        tablaCuatro.put("Cuatro por Dos", 8);
+        tablaCuatro.put("Cuatro por Tres", 12);
+        tablaCuatro.put("Cuatro por Cuatro", 16);
+        tablaCuatro.put("Cuatro por Cinco", 20);
+        tablaCuatro.put("Cuatro por Seis", 24);
+        tablaCuatro.put("Cuatro por Siete", 28);
+        tablaCuatro.put("Cuatro por Ocho", 32);
+        tablaCuatro.put("Cuatro por Nueve", 36);
+        tablaCuatro.put("Cuatro por Diez", 40);
 
  }
 
     public HashMap<String, Integer> getTablaCuatro() {
-        return TablaCuatro;
+        return tablaCuatro;
     }
 }

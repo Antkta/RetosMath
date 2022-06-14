@@ -2,24 +2,24 @@ import java.util.HashMap;
 
 public class TablaDiez {
 
-    HashMap<String, Integer> TablaDiez = new HashMap<>();
+    private HashMap<String, Integer> tablaDiez = new HashMap<>();
 
-    public TablaDiez(){
+    private void TablaDiez(){
 
-        TablaDiez.put("Diez por Uno", 10);
-        TablaDiez.put("Diez por Dos", 20);
-        TablaDiez.put("Diez por Tres", 30);
-        TablaDiez.put("Diez por Cuatro", 40);
-        TablaDiez.put("Diez por Cinco", 50);
-        TablaDiez.put("Diez por Seis", 60);
-        TablaDiez.put("Diez por Siete", 70);
-        TablaDiez.put("Diez por Ocho", 80);
-        TablaDiez.put("Diez por Nueve", 90);
-        TablaDiez.put("Diez por Diez", 100);
+        tablaDiez.put("Diez por Uno", 10);
+        tablaDiez.put("Diez por Dos", 20);
+        tablaDiez.put("Diez por Tres", 30);
+        tablaDiez.put("Diez por Cuatro", 40);
+        tablaDiez.put("Diez por Cinco", 50);
+        tablaDiez.put("Diez por Seis", 60);
+        tablaDiez.put("Diez por Siete", 70);
+        tablaDiez.put("Diez por Ocho", 80);
+        tablaDiez.put("Diez por Nueve", 90);
+        tablaDiez.put("Diez por Diez", 100);
 
  }
 
     public HashMap<String, Integer> getTablaDiez() {
-        return TablaDiez;
+        return tablaDiez;
     }
 }

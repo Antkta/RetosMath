@@ -2,24 +2,24 @@ import java.util.HashMap;
 
 public class TablaOcho {
 
-    HashMap<String, Integer> TablaOcho = new HashMap<>();
+    private HashMap<String, Integer> tablaOcho = new HashMap<>();
 
-    public TablaOcho(){
+    private void TablaOcho(){
 
-        TablaOcho.put("Ocho por Uno", 8);
-        TablaOcho.put("Ocho por Dos", 16);
-        TablaOcho.put("Ocho por Tres", 24);
-        TablaOcho.put("Ocho por Cuatro", 32);
-        TablaOcho.put("Ocho por Cinco", 40);
-        TablaOcho.put("Ocho por Seis", 48);
-        TablaOcho.put("Ocho por Siete", 56);
-        TablaOcho.put("Ocho por Ocho", 64);
-        TablaOcho.put("Ocho por Nueve", 72);
-        TablaOcho.put("Ocho por Diez", 80);
+        tablaOcho.put("Ocho por Uno", 8);
+        tablaOcho.put("Ocho por Dos", 16);
+        tablaOcho.put("Ocho por Tres", 24);
+        tablaOcho.put("Ocho por Cuatro", 32);
+        tablaOcho.put("Ocho por Cinco", 40);
+        tablaOcho.put("Ocho por Seis", 48);
+        tablaOcho.put("Ocho por Siete", 56);
+        tablaOcho.put("Ocho por Ocho", 64);
+        tablaOcho.put("Ocho por Nueve", 72);
+        tablaOcho.put("Ocho por Diez", 80);
 
  }
 
     public HashMap<String, Integer> getTablaOcho() {
-        return TablaOcho;
+        return tablaOcho;
     }
 }

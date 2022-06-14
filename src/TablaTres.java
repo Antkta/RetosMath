@@ -2,24 +2,24 @@ import java.util.HashMap;
 
 public class TablaTres {
 
-    HashMap<String, Integer> TablaTres = new HashMap<>();
+    private HashMap<String, Integer> tablaTres = new HashMap<>();
 
-    public TablaTres(){
+    private void TablaTres(){
 
-        TablaTres.put("Tres por Uno", 3);
-        TablaTres.put("Tres por Dos", 6);
-        TablaTres.put("Tres por Tres", 9);
-        TablaTres.put("Tres por Cuatro", 12);
-        TablaTres.put("Tres por Cinco", 15);
-        TablaTres.put("Tres por Seis", 18);
-        TablaTres.put("Tres por Siete", 21);
-        TablaTres.put("Tres por Ocho", 24);
-        TablaTres.put("Tres por Nueve", 27);
-        TablaTres.put("Tres por Diez", 30);
+        tablaTres.put("Tres por Uno", 3);
+        tablaTres.put("Tres por Dos", 6);
+        tablaTres.put("Tres por Tres", 9);
+        tablaTres.put("Tres por Cuatro", 12);
+        tablaTres.put("Tres por Cinco", 15);
+        tablaTres.put("Tres por Seis", 18);
+        tablaTres.put("Tres por Siete", 21);
+        tablaTres.put("Tres por Ocho", 24);
+        tablaTres.put("Tres por Nueve", 27);
+        tablaTres.put("Tres por Diez", 30);
 
  }
 
     public HashMap<String, Integer> getTablaTres() {
-        return TablaTres;
+        return tablaTres;
     }
 }

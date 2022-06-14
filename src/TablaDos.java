@@ -2,26 +2,26 @@ import java.util.HashMap;
 
 public class TablaDos {
 
-    HashMap<String, Integer> TablaDos = new HashMap<>();
+    private HashMap<String, Integer> tablaDos = new HashMap<>();
 
-    public TablaDos(){
+    private void TablaDos(){
 
-        TablaDos.put("Dos por Uno", 2);
-        TablaDos.put("Dos por Dos", 4);
-        TablaDos.put("Dos por Tres", 6);
-        TablaDos.put("Dos por Cuatro", 8);
-        TablaDos.put("Dos por Cinco", 10);
-        TablaDos.put("Dos por Seis", 12);
-        TablaDos.put("Dos por Siete", 14);
-        TablaDos.put("Dos por Ocho", 16);
-        TablaDos.put("Dos por Nueve", 18);
-        TablaDos.put("Dos por Diez", 20);
+        tablaDos.put("Dos por Uno", 2);
+        tablaDos.put("Dos por Dos", 4);
+        tablaDos.put("Dos por Tres", 6);
+        tablaDos.put("Dos por Cuatro", 8);
+        tablaDos.put("Dos por Cinco", 10);
+        tablaDos.put("Dos por Seis", 12);
+        tablaDos.put("Dos por Siete", 14);
+        tablaDos.put("Dos por Ocho", 16);
+        tablaDos.put("Dos por Nueve", 18);
+        tablaDos.put("Dos por Diez", 20);
 
 
     }
 
     public HashMap<String, Integer> getTablaDos() {
-        return TablaDos;
+        return tablaDos;
     }
 
 }

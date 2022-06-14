@@ -2,24 +2,24 @@ import java.util.HashMap;
 
 public class TablaSiete {
 
-    HashMap<String, Integer> TablaSiete = new HashMap<>();
+    private HashMap<String, Integer> tablaSiete = new HashMap<>();
 
-    public TablaSiete(){
+    private void TablaSiete(){
 
-        TablaSiete.put("Siete por Uno", 7);
-        TablaSiete.put("Siete por Dos", 14);
-        TablaSiete.put("Siete por Tres", 21);
-        TablaSiete.put("Siete por Cuatro", 28);
-        TablaSiete.put("Siete por Cinco", 35);
-        TablaSiete.put("Siete por Seis", 42);
-        TablaSiete.put("Siete por Siete", 49);
-        TablaSiete.put("Siete por Ocho", 56);
-        TablaSiete.put("Siete por Nueve", 63);
-        TablaSiete.put("Siete por Diez", 70);
+        tablaSiete.put("Siete por Uno", 7);
+        tablaSiete.put("Siete por Dos", 14);
+        tablaSiete.put("Siete por Tres", 21);
+        tablaSiete.put("Siete por Cuatro", 28);
+        tablaSiete.put("Siete por Cinco", 35);
+        tablaSiete.put("Siete por Seis", 42);
+        tablaSiete.put("Siete por Siete", 49);
+        tablaSiete.put("Siete por Ocho", 56);
+        tablaSiete.put("Siete por Nueve", 63);
+        tablaSiete.put("Siete por Diez", 70);
 
  }
 
     public HashMap<String, Integer> getTablaSiete() {
-        return TablaSiete;
+        return tablaSiete;
     }
 }

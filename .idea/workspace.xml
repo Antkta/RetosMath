@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="Primeras clases de RetosMath, con dos tablas, temporizador y jugador" />
+    <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="Primeras clases de RetosMath, con dos tablas, temporizador y jugador">
+      <change afterPath="$PROJECT_DIR$/src/Tablas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaCinco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaCuatro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaDiez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaDiez.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaDos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaNueve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaNueve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaOcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaOcho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaSeis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaSeis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaSiete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaSiete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaTres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaUno.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,13 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Tablas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tablas" />
+      <module name="RetosMath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tablas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655081834477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Primeras clases de RetosMath, con dos tablas, temporizador y jugador">
+      <created>1655170735712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655170735712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
