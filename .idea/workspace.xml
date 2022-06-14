@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="Primeras clases de RetosMath, con dos tablas, temporizador y jugador">
-      <change afterPath="$PROJECT_DIR$/src/Tablas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaCincoPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaCuatroPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaDiezPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaDosPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaNuevePreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaOchoPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaSeisPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaSietePreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaTresPreguntas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tablaUnoPreguntas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaCinco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaCuatro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaDiez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaDiez.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaNueve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaNueve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaOcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaOcho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaSeis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaSeis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaSiete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaSiete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TablaUno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaCinco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaCuatro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaDiez.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaDos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaNueve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaOcho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaSeis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaSiete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaTres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TablaUno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tablas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tablas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -48,14 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RetosMath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablaUno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TablaUno" />
+      <module name="RetosMath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tablas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tablas" />
       <module name="RetosMath" />
@@ -65,7 +92,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tablas" />
+        <item itemvalue="Application.TablaUno" />
       </list>
     </recent_temporary>
   </component>
