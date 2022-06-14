@@ -17,6 +17,9 @@ public class TablaCinco {
         TablaCinco.put("Cinco por Nueve", 45);
         TablaCinco.put("Cinco por Diez", 50);
 
+ }
 
+    public HashMap<String, Integer> getTablaCinco() {
+        return TablaCinco;
     }
 }

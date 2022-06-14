@@ -17,6 +17,9 @@ public class TablaTres {
         TablaTres.put("Tres por Nueve", 27);
         TablaTres.put("Tres por Diez", 30);
 
+ }
 
+    public HashMap<String, Integer> getTablaTres() {
+        return TablaTres;
     }
 }
