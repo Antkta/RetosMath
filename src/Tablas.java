@@ -777,6 +777,91 @@ public class Tablas {
                 } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
 
                 JOptionPane.showMessageDialog(null, "El numero de respuestas correctas fueron: " + respuestasCorrectas9);
+
+            case 10:
+
+                int respuestasCorrectas10 = 0;
+                int a10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Uno?"));
+                tablaDiezPreguntas respuestaA10 = tablaDiezPreguntas.DiezporUno;
+                int respuestaUno10 = respuestaA10.getValue();
+                if (a10 == respuestaUno10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int b10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Dos?"));
+                tablaDiezPreguntas respuestaB10 = tablaDiezPreguntas.DiezporDos;
+                int respuestaDos10 = respuestaB10.getValue();
+                if (b10 == respuestaDos10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int c10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Tres?"));
+                tablaDiezPreguntas respuestaC10 = tablaDiezPreguntas.DiezporTres;
+                int respuestaTres10 = respuestaC10.getValue();
+                if (c10 == respuestaTres10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int d10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Cuatro?"));
+                tablaDiezPreguntas respuestaD10 = tablaDiezPreguntas.DiezporCuatro;
+                int respuestaCuatro10 = respuestaD10.getValue();
+                if (d10 == respuestaCuatro10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int e10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Cinco?"));
+                tablaDiezPreguntas respuestaE10 = tablaDiezPreguntas.DiezporCinco;
+                int respuestaCinco10 = respuestaE10.getValue();
+                if (e10 == respuestaCinco10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int f10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Seis?"));
+                tablaDiezPreguntas respuestaF10 = tablaDiezPreguntas.DiezporSeis;
+                int respuestaSeis10 = respuestaF10.getValue();
+                if (f10 == respuestaSeis10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int g10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Siete?"));
+                tablaDiezPreguntas respuestaG10 = tablaDiezPreguntas.DiezporSiete;
+                int respuestaSiete10 = respuestaG10.getValue();
+                if (g10 == respuestaSiete10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int h10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Ocho?"));
+                tablaDiezPreguntas respuestaH10 = tablaDiezPreguntas.DiezporOcho;
+                int respuestaOcho10 = respuestaH10.getValue();
+                if (h10 == respuestaOcho10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int i10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Nueve?"));
+                tablaDiezPreguntas respuestaI10 = tablaDiezPreguntas.DiezporNueve;
+                int respuestaNueve10 = respuestaI10.getValue();
+                if (i10 == respuestaNueve10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                int j10 = Integer.parseInt(JOptionPane.showInputDialog("¿Cuanto es Diez por Diez?"));
+                tablaDiezPreguntas respuestaJ10 = tablaDiezPreguntas.DiezporDiez;
+                int respuestaDiez10 = respuestaJ10.getValue();
+                if (j10 == respuestaDiez10) {
+                    JOptionPane.showMessageDialog(null, "¡Es correcto!");
+                    respuestasCorrectas10 += 1;
+                } else JOptionPane.showMessageDialog(null, "Oh, no es correcto");
+
+                JOptionPane.showMessageDialog(null, "El numero de respuestas correctas fueron: " + respuestasCorrectas10);
         }
 
     }
