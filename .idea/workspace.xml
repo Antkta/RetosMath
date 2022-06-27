@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="Todas las tablas funcionando con JOptionPane">
-      <change afterPath="$PROJECT_DIR$/src/MainReto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
+    <list default="true" id="3b4750a3-8f30-4ccd-b805-0ce4b3a6c22b" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/resources/com/example/retosmath2/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RetosMath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RetosMath.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +52,14 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/home/kta/IdeaProjects/demo",
+    "last_opened_file_path": "/home/kta/IdeaProjects/RetosMath/src",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656023909399</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test">
+      <created>1656365668546</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656365668546</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeras clases de RetosMath, con dos tablas, temporizador y jugador" />
     <MESSAGE value="Todas las tablas funcionando con JOptionPane" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todas las tablas funcionando con JOptionPane" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
